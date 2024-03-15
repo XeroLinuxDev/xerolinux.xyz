@@ -1,3 +1,9 @@
+/**
+ * @file
+ * This file defines a React component `DonateInfo` which displays information about the project's donation options.
+ * It includes a styled image and a paragraph of text explaining the current situation of the project maintainer.
+ * The text encourages users to support the project through donations on Ko-Fi or by becoming a GitHub Sponsor.
+ */
 import styled from "styled-components";
 import SteamDeckImg from "../assets/images/help.png";
 

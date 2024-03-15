@@ -1,6 +1,15 @@
-/*
-this component seems to be a part of a user interface that provides options to the user to download or build an ISO file from SourceForge. The agreed prop might be used to control the visibility or styling of the component based on whether the user has agreed to some terms or conditions.
-*/
+/**
+ * This is a React component named 'AgreedOptions'. It is responsible for rendering a section of the UI
+ * that includes download/build ISO options. The component uses several other components such as 'Buttons', 
+ * 'Button', 'Title', and 'Box' for structuring the UI. It also uses styled-components for CSS-in-JS styling.
+ * 
+ * The component receives a prop 'agreed' which is used to conditionally style the 'Div' component.
+ * 
+ * The component includes links to download the ISO from SourceForge and other locations.
+ * 
+ * @param {boolean} agreed - A boolean prop used to conditionally style the 'Div' component.
+ * @returns {JSX.Element} A React element that renders the download/build ISO options.
+ */
 import Buttons from "./Buttons";
 import Button from "./Button";
 import Title from "./Title";

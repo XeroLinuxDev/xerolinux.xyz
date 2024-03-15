@@ -1,3 +1,17 @@
+// This file defines a React component named `CreditButton`.
+// It uses the `styled-components` library for styling.
+
+// The `CreditButton` component takes three props: `icon`, `name`, and `url`.
+// It returns a styled div (`Div`) that contains an anchor (`<a>`) element.
+// The anchor element links to the `url` prop and opens in a new tab.
+// Inside the anchor element, it renders the `icon` and `name` props, and an SVG graphic.
+
+// The `Div` styled component is defined at the end of the file.
+// It's a div with CSS applied to it. The CSS makes the div positioned relatively and gives it a left margin of 5rem.
+// It also prevents the contents of the div from wrapping with `white-space: nowrap`.
+
+// The SVG path and the CSS styles are hard-coded in this component.
+// The `icon`, `name`, and `url` are dynamic and are passed as props when this component is used.
 import styled from "styled-components";
 
 const CreditButton = ({ icon, name, url }) => {

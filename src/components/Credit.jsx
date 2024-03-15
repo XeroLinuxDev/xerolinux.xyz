@@ -1,3 +1,8 @@
+// This file defines a React component named `Credit`. 
+// The component contains two helper functions `discordIcon` and `telegramIcon` which return SVG elements representing Discord and Telegram icons respectively.
+// The SVG icons use the `fill` attribute to set their color, which is set to a CSS variable `--fg`.
+// However, the `Credit` component itself doesn't render anything visible as it doesn't return any JSX from its body.
+// To use the icons, the `discordIcon` and `telegramIcon` functions need to be called somewhere in the JSX that the `Credit` component returns.
 import styled from "styled-components";
 import CreditButton from "./CreditButton";
 import Title from "./Title";

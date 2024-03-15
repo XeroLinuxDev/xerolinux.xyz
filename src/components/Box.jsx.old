@@ -1,4 +1,10 @@
-// Tech Xero Makes changes on his own.....
+/**
+ * @file
+ * This file defines a Box component using styled-components. 
+ * The Box component is a styled div that changes its background image and border-radius based on the provided props.
+ * It uses the ThemeContext to determine whether to use a light or dark background image.
+ * The Box component accepts children, which are rendered inside the styled div.
+ */
 
 import styled from "styled-components";
 import lightbg from "../assets/images/lightbg.avif";
