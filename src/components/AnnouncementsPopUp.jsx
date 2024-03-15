@@ -1,3 +1,7 @@
+/*
+Please note that using dangerouslySetInnerHTML can be risky because it's easy to inadvertently expose your users to a cross-site scripting (XSS) attack. So, it's important to properly sanitize the HTML content before using it.
+*/
+
 import AnnouncementsContent from "../content/AnnouncementsContent.md";
 import { useState, useEffect } from "react";
 import { marked } from "marked";

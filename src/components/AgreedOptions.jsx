@@ -1,3 +1,6 @@
+/*
+this component seems to be a part of a user interface that provides options to the user to download or build an ISO file from SourceForge. The agreed prop might be used to control the visibility or styling of the component based on whether the user has agreed to some terms or conditions.
+*/
 import Buttons from "./Buttons";
 import Button from "./Button";
 import Title from "./Title";

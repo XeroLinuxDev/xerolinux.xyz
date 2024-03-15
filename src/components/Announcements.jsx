@@ -1,3 +1,7 @@
+/* 
+, this component seems to be a part of a user interface that shows major project announcements. The visibility of the announcements is controlled by the Settings.announcements value. When the "read more" button is clicked, it triggers a popup with the announcements.
+*/
+
 import styled from "styled-components";
 import Button from "./Button";
 import { useContext } from "react";

@@ -1,3 +1,5 @@
+// Tech Xero Makes changes on his own.....
+
 import styled from "styled-components";
 import lightbg from "../assets/images/lightbg.avif";
 import darkbg from "../assets/images/darkbg.avif";

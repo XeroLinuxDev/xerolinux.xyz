@@ -1,3 +1,8 @@
+/**
+ * This Box component seems to be a reusable component for creating a styled box with a specific background image and theme. The noBR prop allows for control over whether the box has a border radius or not.
+ * 
+ */
+
 import styled from "styled-components";
 import darkbg from "../assets/images/darkbg.avif";
 import { useContext } from "react";
