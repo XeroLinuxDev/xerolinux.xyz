@@ -1,3 +1,23 @@
+/**
+ * Message Component
+ *
+ * This file defines a React functional component called Message, styled with CSS-in-JS
+ * utilizing 'styled-components'. This component uses the Apollo Client's 'useQuery' hook
+ * to fetch data from a GraphQL server utilizing the 'gql' tagged template literal.
+ *
+ * @module Message
+ *
+ * @function Message
+ *
+ * @returns {JSX.Element} Returns a styled React component displaying a message which is
+ * queried from a GraphQL server. This message is displayed in a scrolling animation handled by CSS.
+ * The animation is paused when the message is hovered or clicked ('active') and has different speeds
+ * based on the screen width.
+ *
+ * While the data is being fetched, the component renders "Loading...". If there is an error
+ * during fetching, the error message is displayed.
+ */
+
 import { useQuery, gql } from "@apollo/client";
 import styled, { keyframes } from "styled-components";
 

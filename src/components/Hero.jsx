@@ -1,3 +1,24 @@
+/**
+ * @fileoverview This file defines the Hero component, which is a section of a webpage, likely the hero section at the top of the page. 
+ * It includes some text and buttons, and has functionality to open various popups or navigate to a new page.
+ * 
+ * @requires styled-components: For styling the components.
+ * @requires react: For creating the component and using hooks.
+ * @requires ../assets/images/laptop.avif: Image used in the component.
+ * @requires ./Button: Button component used in the component.
+ * @requires ../assets/images/leb.svg: Image used in the component.
+ * @requires ../assets/images/herobg.avif: Image used in the component.
+ * @requires ./Buttons: Buttons component used in the component.
+ * @requires ../contexts/PopUpContext: Context providing a way to control a popup element.
+ * @requires ./SocialLinks: SocialLinks component used in the component.
+ * @requires ../content/HeroContent: Content used in the component.
+ * @requires ./Tux: Tux component used in the component.
+ * @requires ../content/Settings.json: Settings used in the component.
+ * 
+ * @param {boolean} countdown - A prop that determines whether a certain element is rendered in the Buttons component.
+ * 
+ * @exports Hero
+ */
 import styled, { keyframes } from "styled-components";
 import laptop from "../assets/images/laptop.avif";
 import Button from "./Button";

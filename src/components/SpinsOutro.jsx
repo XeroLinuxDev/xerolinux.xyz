@@ -1,3 +1,20 @@
+/**
+ * `SpinsReasons` is a React Component used to fetch and display the content of `SpinsOutro.md` file.
+ * The content of `SpinsOutro.md` file is fetched when the component is first mounted.
+ * The markdown content is parsed into HTML with marked module and displayed with a `dangerouslySetInnerHTML` method.
+ *
+ * The Component is styled with styled-components and is composed of the below styled components:
+ * - `SpinsOutroSection`: styles the overall section of the component
+ * - `P`: styles the paragraph text within the component.
+ *
+ * @module SpinsReasons
+ * @requires styled-components
+ * @requires react
+ * @requires marked
+ * @requires ./Box
+ * @requires ../content/SpinsOutro.md
+ */
+//My notes above
 import styled from "styled-components";
 import Box from "./Box";
 import { marked } from "marked";

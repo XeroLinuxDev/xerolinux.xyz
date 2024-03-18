@@ -1,3 +1,20 @@
+/**
+ * @file
+ * This file includes a component called `ThemeIcon` used to create a toggle between light and dark themes in the application.
+ *
+ * @requires react - For useEffect and useContext hooks and also to create the functional component.
+ * @requires styled-components - For styling the encapsulated SVGs.
+ * @requires ThemeContext - To get the context of the theme.
+ *
+ * @function ThemeIcon - The main theme switch component.
+ * It uses `useContext` to access `ThemeContext` and get the current theme and the `setTheme` function.
+ * `toggleTheme` function is defined to switch between the themes by inveting the current theme value.
+ * It uses `useEffect` to run side effects every time the theme changes.
+ * These side-effects include changing the body class and storing the current theme in the local storage.
+ * The function returns an SVG image for the theme, which listens for click events to toggle the theme.
+ *
+ */
+//My notes above
 import styled, { keyframes } from "styled-components";
 import { useEffect } from "react";
 import { useContext } from "react";

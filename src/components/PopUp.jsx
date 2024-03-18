@@ -1,3 +1,11 @@
+/**
+ * @file
+ * This file declares the `PopUp` component which serves to handle the visibility and behaviour of various types of popups including UserAgreement, Changelog, Donate, Treasure etc.
+ * These popups can be controlled using the ContextAPI, specifically the `PopUpContext`. The hook `useContext(PopUpContext)` is used to manage the state of popups.
+ * There are different types of components rendered based on the value of `popUp` which is managed using React's `useState`.
+ * The `useEffect` hook is used to add an event listener to handle the pressing of the 'Escape' key to close the active popup.
+ * The file uses styled components as part of CSS-in-JS solution.
+ */
 import styled, { keyframes } from "styled-components";
 import UserAgreement from "./UserAgreement";
 //import ThemeIcon from "./ThemeIcon";
