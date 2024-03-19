@@ -1,5 +1,22 @@
+/**
+ * XeroBranding Component
+ *
+ * @file This file defines the XeroBranding component. This is a React functional component that displays an SVG logo and heading within a styled anchor tag. The anchor tag and its content are styled using the styled-components library. The SVG provides a scalable logo for the component.
+ *
+ * Overall, this component seems to be designed to render a logo or brand name in the application, which, when clicked, will redirect to the Home section of the app (based on the href="#Home").
+ *
+ * @requires styled-components - For writing CSS in JavaScript.
+ *
+ * @example
+ * // How to use XeroBranding component
+ * <XeroBranding />
+ *
+ * @author Array of Authors
+ * @since Array of Dates or Versions
+ * @todo Complete the documentation when the complete source code or additional info regarding this component is available.
+ */
+//My notes above
 import styled from "styled-components";
-
 const XeroBranding = () => {
   return (
     <A href="#Home">
