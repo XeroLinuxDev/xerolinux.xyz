@@ -6,7 +6,6 @@ Below is a list of latest toolkit changes/updates. Keep in mind that to get late
 
 
 #### - March 19th 2024 :
-<br />
 
 - **XeroRice** has been acticated.
 - **KDE Groups** fixed with more packages.
