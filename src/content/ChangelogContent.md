@@ -1,23 +1,13 @@
-# <center>.:: XeroLinux Changelog ::.</center>
+# <center>.:: XeroLinux Toolkit Changelog ::.</center>
 
 <br />
 
-Below is a list of changes. Fresh install is no longer needed if you are already on **XeroLinux**. Hope you enjoy our latest release. ;)
+Below is a list of latest toolkit changes/updates. Keep in mind that to get latest version in all you have to do is update your system with `sudo pacman -Syyu`
 
 
-#### - Important Changes :
+#### - March 19th 2024 :
 <br />
 
-- **KDFONT** Issue Resolved (Again..).
-- **Arch Kernel** updated to version **6.4.3**.
-- **Grub** issue addressed held back to r499/New Repo.
-- **New Look** Now system uses the **Catppuccin** theme & style for everything.
-- **Memtest86** Will be removed during install due to an ongoing issue with **Grub**
-
-#### - KDE Plasma updates :
-<br />
-
-- **QT** updated to **5.15.10** (Latest as of release).
-- **KDE Plasma** updated to **5.27.6** (Latest as of release).
-- **KDE Frameworks** updated to **5.108** including all packages.
-- **Major** under-the-hood performance optimizations made to **Plasma**.
+- **XeroRice** has been acticated.
+- **KDE Groups** fixed with more packages.
+- **AUR Helpers** fixed flags added for git.
