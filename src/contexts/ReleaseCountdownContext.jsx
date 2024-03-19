@@ -1,3 +1,29 @@
+/**
+ * This module provides a React context for a countdown timer.
+ * It exports a `ReleaseCountdownContext` and a `ReleaseCountdownContextProvider` component.
+ * The `ReleaseCountdownContext` can be used in other components to access the countdown state.
+ * The `ReleaseCountdownContextProvider` is a wrapper component that provides the countdown
+ * context to all child components in its tree.
+ *
+ * The countdown is to a hard-coded date "August 12, 2022, 20:00:00 GMT+3". The state of the
+ * countdown includes the number of remaining days, hours, minutes, and seconds. The countdown
+ * updates every second.
+ *
+ * @module ReleaseCountdownContextProvider
+ *
+ * @example
+ * // In another component
+ * import { ReleaseCountdownContext } from './releaseCountdownContextProvider';
+ * const countdown = useContext(ReleaseCountdownContext);
+ *
+ * @example
+ * // To provide context to a component tree
+ * import ReleaseCountdownContextProvider from './releaseCountdownContextProvider';
+ * <ReleaseCountdownContextProvider>
+ *     <MyComponent />
+ * </ReleaseCountdownContextProvider>
+ */
+//My Notes Above
 import { createContext, useState, useEffect } from "react";
 
 export const ReleaseCountdownContext = createContext(null);
