@@ -1,3 +1,18 @@
+/**
+ * @file
+ * This file defines a Header component for the application.
+ * 
+ * The Header component includes a logo, a brand name, a hamburger menu, and a navigation bar.
+ * The hamburger menu and navigation bar's visibility is controlled by a state variable `menu`.
+ * 
+ * The component uses styled-components for CSS-in-JS styling. The `Div` and `StyledHeader` components are styled here.
+ * 
+ * The logo image is imported from the assets directory.
+ * 
+ * The HamburgerMenu and NavBar are separate components imported into this file.
+ * 
+ * The useState hook from React is used to manage the state of the hamburger menu and navigation bar.
+ */
 import styled from "styled-components";
 import logo from "../assets/images/logo.svg";
 import HamburgerMenu from "./HamburgerMenu";

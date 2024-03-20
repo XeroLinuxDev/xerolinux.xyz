@@ -1,3 +1,10 @@
+/**
+ * This file defines the Credit component.
+ * The Credit component displays a credit button with an icon, name, and URL.
+ * It uses the CreditButton and Title components, and styles them using styled-components.
+ * 
+ * @fileoverview
+ */
 import styled from "styled-components";
 import CreditButton from "./CreditButton";
 import Title from "./Title";

@@ -1,3 +1,15 @@
+/**
+ * This is a React component named `Close` that renders an SVG (Scalable Vector Graphics) image.
+ * The SVG image is a close button (usually an 'X') that can be used to close a modal or any other UI element.
+ *
+ * @component
+ * @param {function} action - A function that will be called when the SVG is clicked.
+ *
+ * @example
+ * <Close action={closeModalFunction} />
+ *
+ * @returns {JSX.Element} A styled SVG element that changes size on hover and calls the `action` function when clicked.
+ */
 import { ThemeContext } from "../contexts/ThemeContext";
 import { useContext } from "react";
 import styled from "styled-components";

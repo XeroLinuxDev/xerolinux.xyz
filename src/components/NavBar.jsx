@@ -1,3 +1,32 @@
+/**
+ * Navigation Bar Component
+ *
+ * This module exports a React functional component that represents a Navigation Bar.
+ * Clicking on any item in the navigation bar will trigger a state update via the `setMenu` function
+ * and navigate the user to a certain part of the application/page or an external URL.
+ *
+ * @module NavBar
+ *
+ * @param {Object} props Component props
+ * @param {boolean} props.menu Current menu visibility state
+ * @param {Function} props.setMenu Function to change the menu state
+ *
+ * @requires react
+ * @requires styled-components
+ * @requires react-icons
+ *
+ * Imports various icons from:
+ * - GoHome from react-icons/go
+ * - RiContactsLine from react-icons/ri
+ * - FaTheaterMasks, FaForumbee from react-icons/fa
+ * - MdOutlineQuestionAnswer from react-icons/md
+ * - BiStore from react-icons/bi
+ * - ImPodcast from react-icons/im
+ *
+ * Also imports a local image file darkbg.png from the ../assets/images directory.
+ *
+ * @returns {JSX.Element} A styled navigation bar as a JSX element.
+ */
 import styled from "styled-components";
 import { GoHome } from "react-icons/go";
 import { RiContactsLine } from "react-icons/ri";
@@ -123,7 +152,7 @@ const Li = styled.li`
   justify-content: center;
   & svg {
     width: var(--fz-4);
-    object-fit: contian;
+    object-fit: contain;
   }
   & #Vector,
   & #arrow {
@@ -134,7 +163,7 @@ const Li = styled.li`
   &:hover #arrow {
     transform: translate(2px, -2px) scale(0.9);
   }
-  &: active #arrow {
+  &:active #arrow {
     transform: translate(3px, -3px);
   }
   &:hover #Vector {

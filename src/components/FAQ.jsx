@@ -1,3 +1,13 @@
+/**
+ * @file
+ * This file defines a FAQ (Frequently Asked Questions) component in React.
+ * The FAQ component takes an array of FAQs as props and displays them.
+ * Each FAQ has a question and an answer. Only one FAQ can be open at a time.
+ * When a FAQ is clicked, it either opens (if it was closed) or closes (if it was open).
+ * The state of which FAQ is open is managed with a React useState hook.
+ * The FAQ component uses several other components: Box, Button, and Title.
+ * The FAQ component is styled with styled-components.
+ */
 import { useState } from "react";
 import styled from "styled-components";
 import Box from "./Box";

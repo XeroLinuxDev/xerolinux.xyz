@@ -1,3 +1,20 @@
+/**
+ * @file
+ * This file defines a Button component for use in a React application.
+ * The Button component is styled using the styled-components library.
+ * It accepts various props to customize its appearance and behavior, including:
+ * - text: The text to display on the button
+ * - action: The function to execute when the button is clicked
+ * - primary: A boolean to determine if the button is a primary button
+ * - themed: A boolean to determine if the button should use theme styles
+ * - padding: The padding to apply to the button
+ * - fz: The font size of the button text
+ * - clr: The color of the button text
+ * - icon: An optional icon to display on the button
+ * - float: The CSS float property value for the button
+ * - bg: The background color of the button
+ * - underline: A boolean to determine if the button text should be underlined
+ */
 import styled, { css } from "styled-components";
 
 const Button = ({

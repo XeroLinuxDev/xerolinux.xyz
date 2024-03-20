@@ -1,3 +1,4 @@
+//TODO: Remove Exports - Follow and Remove Imports!
 export const CONTENT = [
     //XeroG Box
     {

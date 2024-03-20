@@ -1,3 +1,10 @@
+/**
+ * @file
+ * This file defines a `CreditButton` React component. 
+ * The `CreditButton` is a styled button that includes an icon, a name, and a URL. 
+ * When clicked, it opens the provided URL in a new tab. 
+ * The button also includes a custom SVG graphic.
+ */
 import styled from "styled-components";
 
 const CreditButton = ({ icon, name, url }) => {

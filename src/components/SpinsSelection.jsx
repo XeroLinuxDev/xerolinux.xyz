@@ -1,3 +1,19 @@
+/**
+ * SpinsSelection Component.
+ *
+ * This is a React component for the 'Spins' section of a webpage.
+ * The section displays two distros or "spins" of the XeroLinux operating system.
+ * Each spin is represented with an ImageCard component that displays an icon,
+ * a title, main text, two buttons with customizable actions and text,
+ * and a 'details' link.
+ *
+ * The layout of the section adjusts automatically to the width
+ * of the viewport, switching from a column layout to a row layout
+ * for viewports wider than 1100px.
+ *
+ * @module SpinsSelection
+ */
+//My notes above
 import styled from "styled-components";
 import Box from "./Box";
 import ImageCard from "./ImageCard";

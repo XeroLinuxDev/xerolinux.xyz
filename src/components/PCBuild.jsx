@@ -1,3 +1,17 @@
+/**
+ * @module PCBuild
+ *
+ * @requires module:../assets/images/pcbuild.jpg
+ * @requires module:styled-components
+ * @requires module:./Title
+ * @requires module:./Img
+ *
+ * This module defines a React component 'PCBuild' that displays information about a PC build.
+ * This component uses an image from local assets and two components: 'Title' and 'Img'.
+ * It returns a JSX that contains a title, image, and a description about a PC Build.
+ * There's a styled paragraph 'p' component with some text and styles conditionally applied based on the 'center' and 'small' props which are passed to it.
+ * Lastly, this component is exported as a default export to be used in other JavaScript modules.
+ */
 import PCimg from "../assets/images/pcbuild.jpg";
 import styled from "styled-components";
 import Title from "./Title";

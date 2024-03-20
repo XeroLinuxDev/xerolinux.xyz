@@ -1,3 +1,19 @@
+/**
+ * Tux Component.
+ *
+ * This is a React component that presents a gift to the user.
+ * The visibility of the gift can be toggled by setting the 'tux' property in Settings.json.
+ *
+ * The component makes use of the useContext hook to access the popUp state from PopUpContext.
+ * On clicking the 'Click Here', the 'openGift' function triggers and sets the state of popUp to 'Treasure'.
+ *
+ * The component returns null if the 'tux' value in Settings.json is falsy.
+ * Otherwise, it returns a styled description with a wrapped gift image and an option to unwrap the gift.
+ *
+ * @module Tux
+ * @exports Tux
+ */
+//My notes above
 import styled from "styled-components";
 import tuxImg from "../assets/images/gift.png";
 import { useContext } from "react";

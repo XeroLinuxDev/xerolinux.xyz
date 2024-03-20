@@ -1,3 +1,11 @@
+/**
+ * @file
+ * This file defines a React component named DateTime.
+ * The DateTime component displays the current date and time.
+ * It uses the useState and useEffect hooks from React to manage and update the state.
+ * The state is initialized with an empty string and is updated every second with the current date and time.
+ * The date and time are formatted to display the name of the day and the name of the month.
+ */
 import { useState, useEffect } from "react";
 import styled from "styled-components";
 
