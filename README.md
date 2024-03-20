@@ -1,3 +1,16 @@
+# In Dev Mode For Steve
+1. Clone local
+2. Checkout or switch to `dev` branch
+3. ### *`yarn start`* in terminal
+4. Should open default browser on [http://localhost:3000](http://localhost:3000)
+5. ### *`Ctrl + c`* in terminal to shut down server.
+6. New updates will be merged from whatever feature branch I merge to `dev`.
+7. Before looking for changes be sure to `git pull`
+8. You should see work in progress whenever I push to `dev`
+
+
+-------------
+-------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
