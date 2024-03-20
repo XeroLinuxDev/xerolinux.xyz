@@ -1,3 +1,27 @@
+/**
+ * `SocialLinks` Component.
+ *
+ * This file exports a functional `SocialLinks` component. This component is responsible
+ * for rendering social media icons as hyperlinks. The links, when clicked, open the
+ * corresponding social media page in a new tab.
+ *
+ * An SVG graphic is used to display the icon for each social media site. The SVGs are
+ * nested within anchor ('a') elements.
+ *
+ * The color of the `Wrapper` component can be customized using the `clr` prop.
+ *
+ * @module SocialLinks
+ * @file This file exports the `SocialLinks` component.
+ * @param {Object} props - The properties passed to the component. Expected properties:
+ *   @param {string} props.clr - A string to set the color of the `Wrapper` component.
+ *
+ * @example
+ * // To use this component, import it and use it as you normally would in JSX.
+ * import SocialLinks from './SocialLinks';
+ * ...
+ * <SocialLinks clr="#f00" />
+ */
+//My Notes Above
 import styled from "styled-components";
 import { FaMastodon } from "react-icons/fa";
 

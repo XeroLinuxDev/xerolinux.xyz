@@ -1,3 +1,18 @@
+/**
+ * @file
+ * This JavaScript module uses React and styled-components to create a decorative "LightRope" UI component.
+ * Each light in the light rope is represented using a list element (`<li/>`), and a total of 20 lights are rendered.
+ * The specifications for the globe lights such as width, height, spacing, spread, and opacity are stored in a `config` object.
+ * Three different animation effects (Flash1, Flash2, Flash3) are created using keyframes to give a flashing effect to the lights.
+ * The LightRope styled-component has certain specific styles and animation effects declared, which are then used to style each light in the rope.
+ *
+ * // In your component return method, insert the Lights component
+ * return (
+ *   <div>
+ *     <Lights />
+ *   </div>
+ * );
+ */
 import styled, { keyframes } from "styled-components";
 import Settings from "../content/Settings.json";
 const config = {

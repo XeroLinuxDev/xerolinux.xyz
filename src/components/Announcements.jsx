@@ -1,3 +1,10 @@
+/**
+ * @file
+ * This file defines the Announcements component. 
+ * It uses the PopUpContext to control the visibility of a pop-up.
+ * The component displays a bar with major project announcements and a button to read more.
+ * The visibility of the bar is controlled by the 'announcements' setting in Settings.json.
+ */
 import styled from "styled-components";
 import Button from "./Button";
 import { useContext } from "react";

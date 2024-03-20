@@ -1,3 +1,29 @@
+/**
+ * Custom React Hook to fetch data from the API.
+ *
+ * @module useFetch
+ *
+ * @param {object} configObj - A configuration object for the Fetch operation, which includes:
+ * @param {object} configObj.axiosInstance - The axios instance to use for the HTTP request.
+ * @param {string} configObj.method - The HTTP method to use.
+ * @param {string} configObj.url - The URL to send the request to.
+ * @param {object} [configObj.config] - Optional configuration options for the axios call.
+ *
+ * @returns {object} - An object that contains:
+ * @returns {any} object.resData - The response data from the API,
+ * @returns {string} object.error - An error message if there's an error during the fetch,
+ * @returns {boolean} object.loading - The loading state: `true` if the request is in progress, `false` otherwise.
+ *
+ * @example
+ *
+ * const { resData, error, loading } = useFetch({
+ *   axiosInstance: axios,
+ *   method: 'GET',
+ *   url: '/api/data',
+ * });
+ */
+//My notes above/**
+
 import { useState, useEffect } from "react";
 
 const useFetch = (configObj) => {

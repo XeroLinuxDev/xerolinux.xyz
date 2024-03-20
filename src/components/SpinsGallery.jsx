@@ -1,3 +1,15 @@
+/**
+ * @file
+ * @module SpinsGallery
+ * @description This file contains a React component named `SpinsGallery`, which creates an image carousel using the
+ * `react-responsive-carousel` library.
+ * The carousel displays an array of images each with a source URL and an alternate text.
+ * The carousel is set to be centered in the component, not auto-playing, infinitely looping and showing arrows and thumbnails for navigation.
+ * Styles for this component and a container for the Carousel have been achieved using the `styled-components` library.
+ * This file exports the `SpinsGallery` component.
+ */
+//My Notes above
+
 import styled from "styled-components";
 import bg from "../assets/images/herobg.avif";
 import { Carousel } from "react-responsive-carousel";

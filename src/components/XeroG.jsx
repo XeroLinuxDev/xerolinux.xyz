@@ -1,3 +1,18 @@
+/**
+ * The XeroGOptions component module.
+ *
+ * @module XeroGOptions
+ *
+ * @requires react
+ * @requires ./Button
+ * @requires ./Buttons
+ * @requires ../contexts/PopUpContext
+ * @requires ./Title
+ * @requires ./Box
+ * @requires styled-components
+ *
+ */
+//My comment above
 import Button from "./Button";
 import Buttons from "./Buttons";
 import { PopUpContext } from "../contexts/PopUpContext";

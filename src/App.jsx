@@ -1,3 +1,17 @@
+/**
+ * Main application component which defines the overall page structure and routing configuration.
+ *
+ * This component uses React Router v6 for handling the routing of the application.
+ * The different routes defined are '/donate', '/', and '/spins'.
+ * Each route renders a specific component. Additionally, global components like `Header`, `Footer`,
+ * `Announcements`, and `PopUp` (when applicable) are rendered.
+ *
+ * {@link PopUpContext} is used to check if a pop up should be displayed in the application.
+ *
+ * @module App
+ * @exports App
+ */
+//My notes above
 import { Route, Routes } from "react-router-dom";
 import Donate from "./components/Donate";
 import Home from "./components/Home";

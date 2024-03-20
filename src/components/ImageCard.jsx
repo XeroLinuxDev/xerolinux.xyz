@@ -1,3 +1,32 @@
+/**
+ * @file ImageCard.js
+ *
+ * This file contains the definition for ImageCard component which is a React Component.
+ * ImageCard component is the card that contains an image icon, a title, a description,
+ * and three buttons that on click event open a new tab in the browser and redirect to
+ * the link provided as an argument. This component makes use of the 'styled-components'
+ * and 'marked' libraries. 'styled-components' is used for styling the component and
+ * 'marked' library is used to parse markdown text and convert it into HTML.
+ *
+ * @component
+ * @example
+ * // Example usage of ImageCard component
+ * <ImageCard
+ *    title="Title for Image Card"
+ *    icon="icon.png"
+ *    alt="Alternative text for image"
+ *    text="Some description"
+ *    btn1Text="Button 1"
+ *    btn2Text="Button 2"
+ *    btn1Action="https://www.link-for-button1.com"
+ *    btn2Action="https://www.link-for-button2.com"
+ *    detailsLink="https://www.link-for-details-button.com"
+ * />
+ * @requires 'styled-components'
+ * @requires 'marked'
+ * @requires './Button'
+ * @requires './Buttons'
+ */
 import styled from "styled-components";
 import { marked } from "marked";
 import Button from "./Button";

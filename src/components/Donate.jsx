@@ -1,3 +1,9 @@
+/**
+ * @file
+ * This file defines a React component `DonateButtons` that renders two donation buttons.
+ * One button is for donating via Ko-fi and the other is for sponsoring on Github.
+ * Each button is a link that opens in a new tab and is styled using the `Button` component.
+ */
 import Button from "./Button";
 import Buttons from "./Buttons";
 

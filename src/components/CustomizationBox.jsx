@@ -1,3 +1,13 @@
+
+/**
+ * @file CustomizationBox.jsx
+ * @desc This file contains the CustomizationBox component, which is responsible for rendering a box with customization options.
+ * The component receives a `content` prop, which is an array of objects containing information about each customization option.
+ * The component also receives an `ltr` prop, which determines the direction of the component's layout.
+ * When a customization option is clicked, the component updates the `themeIndex` state to reflect the selected option.
+ * The selected option's name, image, description, and installation guide URL are displayed in the component.
+ * The component is styled using styled-components.
+ */
 import styled, { keyframes } from "styled-components";
 import { useState } from "react";
 import Box from "./Box";

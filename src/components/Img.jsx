@@ -1,3 +1,22 @@
+/**
+ * Image Preview Component.
+ *
+ * This module exports a React component called 'Img' that renders an image
+ * with the possibility to click on the image to open a larger preview. Additionally,
+ * it provides a visual indication (eye icon) on hover to indicate the image is clickable.
+ *
+ * The component uses styled-components, which allows the use of ES6 and CSS to
+ * style components. It also leverages React's useState hook for managing component
+ * state to enable the image preview functionality.
+ *
+ * @module Img
+ * @param {string} src - The source URL of the image
+ * @param {string} alt - The alternative text for the image
+ * @param {string} maxWidth - The maximum width for the image
+ * @exports Img
+ **/
+
+// The rest of the code...
 import styled from "styled-components";
 import eye from "../assets/images/eye.svg";
 import { useState } from "react";

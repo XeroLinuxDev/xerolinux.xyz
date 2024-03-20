@@ -1,3 +1,10 @@
+/**
+ * @file
+ * This file defines the Footer component of the application.
+ * It imports several components such as Box and SocialLinks, and uses them to construct the Footer component.
+ * The Footer component is a section of the application that displays the copyright information, creator's details, and social links.
+ * It uses the styled-components library for CSS-in-JS styling.
+ */
 import styled from "styled-components";
 import Box from "./Box";
 import SocialLinks from "./SocialLinks";

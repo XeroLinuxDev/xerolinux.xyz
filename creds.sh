@@ -1,5 +1,15 @@
 #!/bin/bash
 #
+# This script provides a set of instructions and commands for setting up and troubleshooting a Git repository.
+# It is intended to be used on 64-bit computers.
+# The script includes links to tutorials on undoing changes and setting up a Git repository.
+# It also provides a series of commands that can be used to force Git to overwrite local files on pull.
+# The script ends with a warning message to the user to choose their setup options wisely after a clean install.
+# Author: DarkXero
+# Website: http://xerolinux.github.io
+#
+#!/bin/bash
+#
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	DarkXero

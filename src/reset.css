@@ -7,6 +7,29 @@
     Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property
     - The "symbol *" part is to solve Firefox SVG sprite bug
  */
+
+/**
+ * @file
+ * This is a CSS global reset stylesheet.
+ *
+ * It's intended to reset all the default styles applied by browsers except for the 'display' property.
+ * After resetting these values, a few preferred universal styles are applied for the entire application.
+ *
+ * Notes:
+ * 1. The 'all: unset' rule nullifies all properties except 'display'.
+ * 2. 'box-sizing: border-box' is applied to all elements.
+ * 3. The 'pointer' cursor is reapplied for all anchor tags and buttons.
+ * 4. List styles are removed for ordered and unordered lists, and menus.
+ * 5. The 'img' tag gets a 'max-width: 100%' rule to ensure images do not become larger than their container.
+ * 6. The 'border-collapse: collapse' rule removes spaces between table cells.
+ * 7. Specific rules are applied for HTML attributes like 'meter', 'placeholder', 'hidden', 'contenteditable', and 'draggable'.
+ *
+ * @author Author Name
+ * @see {@link https://github.com/elad2412/the-new-css-reset|GitHub Page}
+ * @version 1.5.1
+ * @since 1.3.2022
+ */
+
 *:where(:not(iframe, canvas, img, svg, video):not(svg *, symbol *)) {
   all: unset;
   display: revert;

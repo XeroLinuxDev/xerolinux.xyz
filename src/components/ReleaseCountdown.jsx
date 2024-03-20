@@ -1,3 +1,18 @@
+/**
+ * @file
+ * This file encompasses the 'ReleaseCountdown' component of the React application.
+ *
+ * @requires styled-components - Used for all the styles applied in this file.
+ * @requires ./Title - The external Title component used within this file.
+ *
+ * @component
+ * 'ReleaseCountdown' is a functional React Component that renders a countdown to the next release.
+ * It takes an input property 'countdown' which should be an object of the form {days, hours, minutes, seconds}.
+ * Each of these properties represents the remaining time until the new release.
+ *
+ * The component also uses various styled components and SVG for some UI design.
+ */
+
 import styled from "styled-components";
 import Title from "./Title";
 

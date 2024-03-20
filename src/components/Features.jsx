@@ -1,3 +1,11 @@
+/**
+ * @file
+ * This file defines the Features component of the application.
+ * It imports several components such as Box, Card, and Title, and uses them to construct the Features component.
+ * The Features component is a section of the application that displays various features of the product/service.
+ * It uses SVG icons for visual representation of each feature.
+ * The content for this component is imported from the FeaturesContent file.
+ */
 import styled from "styled-components";
 import Box from "./Box";
 import Card from "./Card";

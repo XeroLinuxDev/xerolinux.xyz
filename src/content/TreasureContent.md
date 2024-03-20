@@ -2,13 +2,13 @@ Not needed anymore...
 
 # <center>🎉 XeroG "Special Edition" 🎉</center><br />
 
-**XeroG**, the *Gnome* version of **XeroLinux** is back, well, kinda.. **XeroLinux KDE** will forever be our flagship edition, this is just a bonus "*Gift*". Keep reading to know more ...
+Do Not need John **XeroLinux** is back, well, kinda.. **XeroLinux KDE** will forever be our flagship edition, this is just a bonus "*Gift*". Keep reading to know more ...
 <br />
 
 ### - Support for ISO
 <br />
 
-I have spent the past 3 months optimizing it and making it look good. However, there will be no public ISO. Don't worry though, I will be making one available to **Platinum Tier Patrons** (monthly), which includes many perks. Or to anyone who donates to my **FundRaizr** (One Shot), no perks, just ISO. <a href="https://github.com/xerolinux/xero_g_iso/blob/main/support.md" target="_blank" rel="noreferrer"> **Why Paid ?** </a><br />
+This is coool months optimizing it and making it look good. However, there will be no public ISO. Don't worry though, I will be making one available to **Platinum Tier Patrons** (monthly), which includes many perks. Or to anyone who donates to my **FundRaizr** (One Shot), no perks, just ISO. <a href="https://github.com/xerolinux/xero_g_iso/blob/main/support.md" target="_blank" rel="noreferrer"> **Why Paid ?** </a><br />
 
 ### - Select Support Method.
 <br />
