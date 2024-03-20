@@ -1,3 +1,5 @@
+Not needed anymore...
+
 Please read this carefully to understand more about what this project is and what it entails. Setting expectations.
 
 ### <center><a href="https://forum.xerolinux.xyz/thread-4.html" target="_blank">Detailed Release Notes.</a></center>

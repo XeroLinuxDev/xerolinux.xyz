@@ -1,3 +1,5 @@
+Not needed anymore...
+
 # <center>Dear XeroLinux users,</center>
 <br />
 
