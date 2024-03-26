@@ -29,7 +29,7 @@ const Header = () => {
         <Wrapper>
           <Brand href="#Home">
             <Logo src={logo} alt="XeroLinux Logo" />
-            <P>XeroLinux</P>
+            <P>Xero Linux</P>
           </Brand>
           <HamburgerMenu menu={menu} setMenu={setMenu} />
         </Wrapper>
