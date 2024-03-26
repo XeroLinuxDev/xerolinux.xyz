@@ -17,11 +17,11 @@ const Footer = () => {
           <p>
             Made with ❤️ by{" "}
             <a
-              href="https://github.com/MAHcodes"
+              href="https://github.com/jajunk"
               target="_blank"
               rel="noreferrer"
             >
-              MAH.codes
+              John Junkins
             </a>
           </p>
           <p>XeroLinux all rights reserved &copy; {new Date().getFullYear()}</p>

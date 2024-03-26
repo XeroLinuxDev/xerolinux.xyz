@@ -4,7 +4,8 @@ Not needed anymore...
  
 Well, as you all know by now, my current situation, in Lebanon, is not great, with up to 4h or Government provided electricity, I am limited on time & it's much harder to maintain such things. With no other income, to rent Generator power, I rely on your generous contributions. So, as a result I had no choice but to charge for my time.. See video below.
 
-<center>
+<
+center>
 <div id="lebanon" style="overflow: hidden">
 <iframe
     id="lebanon-video"

@@ -39,7 +39,7 @@ const Svg = styled.svg`
   transition: transform var(--transition-duration)
     var(--transition-timing-function);
 
-  &: hover {
+  &:hover {
     transform: scale(1.125);
   }
 
