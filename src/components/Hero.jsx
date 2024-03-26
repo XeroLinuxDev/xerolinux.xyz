@@ -43,12 +43,17 @@ const Hero = ({ countdown }) => {
   const openUserAgreement = () => {
     setPopUp("UserAgreement");
   };
-
+  const CenterContainer = styled.div`
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+`
   const openSpinsPage = () => {
     window.open('https://spins.xerolinux.xyz', '_self');
   }
-
+//TODO: Make this center of the page
   return (
+
     <HeroSection id="Home">
       <div className="container">
         <Flex tux={Settings.tux}>
@@ -97,7 +102,7 @@ const Hero = ({ countdown }) => {
         </Flex>
       </div>
     </HeroSection>
-  );
+       );
 };
 
 const HeroSection = styled.section`
