@@ -55,14 +55,15 @@ const Hero = ({ countdown }) => {
   return (
 
     <HeroSection id="Home">
-      <div className="container">
-        <Flex tux={Settings.tux}>
-          <Content>
-            <H1>{CONTENT.heading}</H1>
-            <P dangerouslySetInnerHTML={{__html: CONTENT.text}}></P>
+        <div className="container" style={{display: 'flex', justifyContent: 'space-between'}}>
+            <Flex tux={Settings.tux}>
+                <Content>
+                    <H1>{CONTENT.heading}</H1>
+                    <P dangerouslySetInnerHTML={{__html: CONTENT.text}}></P>
+                </Content>
             <Buttons>
-              {countdown ? (
-                <a href="#Countdown">
+                {countdown ? (
+                    <a href="#Countdown">
                   <Button
                     text="New Release!"
                     primary
@@ -97,10 +98,8 @@ const Hero = ({ countdown }) => {
               <img src={leb} alt="Lebanon Flag" />
               <p>Proudly Made in Lebanon</p>
             </Origin>
-          </Content>
-          <Tux />
-        </Flex>
-      </div>
+            </Flex>
+        </div>
     </HeroSection>
        );
 };
@@ -185,7 +184,7 @@ const Origin = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: cetner;
+  justify-content: center;
   font-size: var(--fz-5);
   gap: 0.5rem;
   margin-block-end: 1.5rem;
@@ -206,7 +205,7 @@ const MoreWrapper = styled.div`
 
 const ImgContainer = styled.div`
   display: flex;
-  align-items: cener;
+  align-items: center;
   justify-content: center;
   position: relative;
   margin-block-end: 2rem;
