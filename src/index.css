@@ -56,7 +56,7 @@ html {
   font-weight: 400;
   scroll-behavior: smooth;
   scroll-padding-top: calc(var(--padding-section) + 2rem);
-  font-size: clamp(0.7rem, 2.5vmin, 1.25rem);
+  font-size: clamp(1rem, 3vmin, 1.5rem);
   text-size-adjust: none;
 }
 
