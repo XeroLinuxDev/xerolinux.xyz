@@ -32,7 +32,7 @@ import SocialLinks from "./SocialLinks";
 import { CONTENT } from "../content/HeroContent";
 import Tux from "./Tux";
 import Settings from "../content/Settings.json";
-import Typwriter from "./Typwriter";
+import Typewriter from "./Typewriter";
 
 const Hero = ({ countdown }) => {
   const { setPopUp } = useContext(PopUpContext);
@@ -57,7 +57,7 @@ const Hero = ({ countdown }) => {
 
     <HeroSection id="Home">
         <div className="container my-typewriter">
-            <Typwriter text="   The Ultimate Arch Linux Swiss-Army Knife !!!  " speed={85} />
+            <Typewriter text="   The Ultimate Arch Linux Swiss-Army Knife !!!  " speed={85} />
         </div>
         <div className="container" style={{display: 'flex', justifyContent: 'space-between'}}>
             <Flex tux={Settings.tux}>
