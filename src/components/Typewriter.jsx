@@ -19,7 +19,7 @@ const Typewriter = (props) => {
       }
     }, props.speed);
     return () => clearInterval(intervalId);
-  }, [props.text, props.speed]);
+  }, [props.text, props.speed, props.pause]);
 
   return (
     <span className={props.className}>
