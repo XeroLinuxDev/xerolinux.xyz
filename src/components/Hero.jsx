@@ -89,14 +89,6 @@ const Hero = ({ countdown }) => {
                   bg={"rgb(var(--white))"}
                 />
               )}
-              <Button
-                text="$ Donate $"
-                themed
-                padding=".75em 1.75em"
-                fz="var(--fz-5)"
-                clr="rgb(var(--white))"
-                action={openDonate}
-              />
             </Buttons>
             <Origin>
               <img src={leb} alt="Lebanon Flag" />
