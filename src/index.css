@@ -58,6 +58,7 @@ html {
   scroll-padding-top: calc(var(--padding-section) + 2rem);
   font-size: clamp(1rem, 3vmin, 1.5rem);
   text-size-adjust: none;
+  -webkit-text-size-adjust: none;
 }
 
 *::selection {
