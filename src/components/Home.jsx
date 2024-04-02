@@ -15,7 +15,7 @@
  * file named `Settings.json`.
  */
 import Hero from "./Hero";
-import Features from "./Features";
+//import Features from "./Features";
 import Customization from "./Customization";
 import FAQ from "./FAQ";
 import faqsJSON from "../content/FAQs.json";
@@ -38,10 +38,7 @@ const Home = () => {
       <Hero countdown={countdown} />
       <Message />
       {countdown ? <ReleaseCountdown countdown={countdown} /> : <Download />}
-      <Features />
-      <Customization />
-      <FAQ faqs={faqsJSON} />
-      {Settings.snowfall ? (
+        {Settings.snowfall ? (
         <SnowfallContainer>
           <Snowfall snowflakeCount={70} speed={[0.5, 2.5]} wind={[-0.5, 3.0]} />
         </SnowfallContainer>

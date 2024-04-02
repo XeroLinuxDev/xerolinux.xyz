@@ -7,3 +7,5 @@
 /inspectionProfiles/Project_Default.xml
 /vcs.xml
 /xerolinux.xyz.iml
+# GitHub Copilot persisted chat sessions
+/copilot/chatSessions
