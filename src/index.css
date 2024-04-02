@@ -54,9 +54,11 @@ body.dark {
 html {
   font-family: Poppins, serif;
   font-weight: 400;
+  -webkit-scroll-behavior: smooth;
   scroll-behavior: smooth;
   scroll-padding-top: calc(var(--padding-section) + 2rem);
   font-size: clamp(1rem, 3vmin, 1.5rem);
+  -webkit-text-size-adjust: none;
   text-size-adjust: none;
 }
 
@@ -98,6 +100,7 @@ body {
 
 img {
   user-select: none;
+  -webkit-user-select: none;
 }
 
 .Home {
