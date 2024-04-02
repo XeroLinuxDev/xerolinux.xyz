@@ -57,7 +57,7 @@ const Hero = ({ countdown }) => {
 
     <HeroSection id="Home">
         <div className="container my-typewriter">
-            <Typewriter text="   The Ultimate Arch Linux Swiss-Army Knife !!!  " speed={85} />
+            <Typewriter text="   The Ultimate Arch Linux Swiss-Army Knife !!!  " speed={85} loop={true}/>
         </div>
         <div className="container" style={{display: 'flex', justifyContent: 'space-between'}}>
             <Flex tux={Settings.tux}>
@@ -91,7 +91,7 @@ const Hero = ({ countdown }) => {
               )}
             </Buttons>
             <Origin>
-              <img src={leb} alt="Lebanon Flag" />
+            <img src={leb} alt="Lebanon Flag" style={{width: "130%", height: "auto"}} />
               <p>Proudly Made in Lebanon</p>
             </Origin>
             </Flex>

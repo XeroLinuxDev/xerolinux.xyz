@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 const Typewriter = (props) => {
   const [text, setText] = useState('');
   const [typing, setTyping] = useState(true);
+  const [loopNumber, setLoopNumber] = useState(0);
 
   useEffect(() => {
     let index = 0;
@@ -15,11 +16,12 @@ const Typewriter = (props) => {
         setTimeout(() => {
           setText('');
           setTyping(true);
+          setLoopNumber(loopNumber + 1);
         }, props.pause);
       }
     }, props.speed);
     return () => clearInterval(intervalId);
-  }, [props.text, props.speed, props.pause]);
+  }, [props.text, props.speed, props.pause, loopNumber]);
 
   return (
     <span className={props.className}>
