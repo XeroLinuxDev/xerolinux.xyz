@@ -59,6 +59,10 @@ const Hero = ({ countdown }) => {
         <div className="container my-typewriter">
             <Typewriter text="   The Ultimate Arch Linux Swiss-Army Knife !!!  " speed={85} loop={true}/>
         </div>
+        <div class="command-section">
+            <div class="command" id="commandText">bash -c "$(curl -fsSL https://get.xerolinux.xyz/)"</div>
+            <div class="copy-message" id="copyMessage">Click to copy!</div>
+        </div>
         <div className="container" style={{display: 'flex', justifyContent: 'space-between'}}>
             <Flex tux={Settings.tux}>
                                 <Content>
@@ -74,6 +78,7 @@ const Hero = ({ countdown }) => {
                     clr="rgb(var(--black))"
                     padding=".75em 1.5em"
                     fz="var(--fz-5)"
+                    //action={openDonate}
                     float="right"
                   />
                 </a>

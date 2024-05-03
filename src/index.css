@@ -169,3 +169,11 @@ img {
   50% {opacity: 0;}
   100% {opacity: 1;}
 }
+
+
+.command {
+  background-color: purple;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
